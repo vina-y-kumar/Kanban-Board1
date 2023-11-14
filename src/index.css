@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  
+}
+.Cards{
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  
+} 
+.Card{
+  margin: 6%;
+  background-color: rgb(220, 243, 251);
+  width:21.25%;
+  border-radius: 15px;
+  color: rgb(95, 95, 95) ;
+  text-align: center;
+  font-family: sans-serif;
+  /* transition: all 0.7s cubic-bezier(0.175,0.885,0.1); */
+  float: left;
+  box-shadow: 0px 13px 10px -7px rgba(0,0,0, 0.1);
+}
+
+
+.heading{
+padding: 30px 0;
+text-align: center;
+font-family: sans-serif;
+color: rgb(75, 75, 75);
+margin-bottom: 30px;
+background-color: rgb(182, 243, 255);
+
+}
+.Card:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);
+  transform: scale(1.02,1.02);
+  /* transform: scale(0.5,0.5); */
+  transition: all 0.4s;
+}
+#img{
+  width: 100%;
+  border-radius: 12px;
+}
+#btn{
+  width:50%;
+  /* background-color: rgb(220, 243, 251); */
+
+}
+/* src/App.css */
+
+body {
+  font-family: '', sans-serif;
+  background-color: rgb(218, 249, 255);
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dropdown-container {
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+.dropdown-container label {
+  margin-right: 10px;
+}
+
+.dropdown-container select {
+  padding: 8px;
+  margin-right: 20px;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.column h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card strong {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.card p {
+  margin: 0;
+}
+
+.card .priority {
+  font-weight: bold;
+}
+
+/* You can add more styling based on your design preferences */
